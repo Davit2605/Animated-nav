@@ -1,6 +1,6 @@
 const navEl = document.querySelector(".active");
 const btnEl = document.getElementById("toggle");
 
-btnEl.addEventListener("clik", () => {
+btnEl.addEventListener("click", () => {
   navEl.classList.toggle("active");
 });
